@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    display: flex;
+    padding: 20px;
+}
+
+.container {
+    display: block;
+    top: 0;
+}
+
+.footer {
+    display: block;
+    margin-left: 10px;
+}
+
+h6:hover {
+    color: goldenrod;
+}
+
+.footer h1 {
+    color: white;
+    font-size: 35px;
+    padding-top: 10px;
+    border-bottom: 2px solid white;
+}
+
+.news {
+    position: relative;
+    display: block;
+    margin-left: 60px;
+}
+
+.contact h5 {
+    font-size: 35px;
+    margin: 45px 0px 0px 50px;
+    padding-top: 10px;
+    border-bottom: 2px solid white;
+}
+
+.contact h6 {
+    font-size: 20px;
+    margin: 10px 10px 10px 50px;
+}
+
+.contact h3 {
+    font-size: 20px;
+    margin: 10px 10px 10px 50px;
+    color: goldenrod;
+}
+
+.news p {
+    position: relative;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    left: 50%;
+
+}
+
+.news h2 {
+    position: relative;
+    color: white;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    left: 50%;
+    border-bottom: 2px solid white;
+    margin-top: 45px;
+
+}
+
+.sub {
+    position: relative;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    left: 50%;
+}
+
+.sub label {
+    color: white;
+    font-size: 25px;
+}
+
+.sub input {
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    color: black;
+}
+
+.sub input:hover {
+    font-size: 20px;
+    color: black;
+    border: 2px solid goldenrod;
+}
+
+.btn {
+    font-size: 20px;
+    width: 50%;
+    padding: 10px;
+    color: white;
+    background-color: goldenrod;
+}
+
+.btn:hover {
+    color: white;
+    background-color: blue;
+}
+
+.openhours h6 {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 35px;
+    left: 30%;
+    border-bottom: 2px solid white;
+    margin-top: 45px;
+}
+
+.openhours ul {
+    position: relative;
+    list-style: none;
+    font-size: 20px;
+    left: 30%;
+}
+
+.openhours span {
+    margin: 30px;
+}

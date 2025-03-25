@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .navbar {
+    position: sticky;
+    background-color: rgba(0, 0, 0, 0.471);
+  }
+  
+  .nav_link {
+    position: relative;
+    display: flex;
+    justify-content:space-around;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0px 20px;
+    font-size: 25px;
+  }
+  
+  .nav_link:hover {
+    color: goldenrod;
+  }
+  
+  .mobileNav {
+    position: relative;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    margin: 20px;
+    font-size: 1rem;
+    font-weight: 500;
+  }

@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #141124;
+
+}
+
+.details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+/* .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+} */
+
+.single_product {
+    width: 50%;
+    background-color: #141124;
+    border-radius: 10px;
+    margin: 20px;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 400px;
+    padding: 40px;
+}
+
+.heading h1 {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    color: goldenrod;
+    font-family: 'Great Vibes', cursive;
+}
+
+.product_content h3 {
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.title span {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    /* border: 2px solid white; */
+}
+
+.title {
+    color: goldenrod;
+    /* border: 2px solid white; */
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    margin: 20px;
+}

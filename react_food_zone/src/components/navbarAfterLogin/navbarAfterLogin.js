@@ -1,0 +1,103 @@
+import React, { useState } from "react";
+import { AppBar, Box, Toolbar, Typography, IconButton, Drawer, Divider } from "@mui/material";
+import FoodBankIcon from '@mui/icons-material/FoodBank';
+import MenuIcon from '@mui/icons-material/Menu';
+import { NavLink } from "react-router-dom";
+import style from "./navbarAfterLogin.module.css";
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+
+const NavbarAfterLogin = () => {
+    const [mobileOpen, setMobileOpen] = useState(false)
+    const handleDrawerToggle = () => {
+        setMobileOpen(!mobileOpen)
+    }
+    const drawer = (
+        <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
+
+            <Typography color={"goldenrod"} variant="h6" component={"div"} sx={{ flexGrow: 1, my: 2 }} >
+                <FoodBankIcon />
+                Food Zone
+            </Typography>
+
+            <Divider />
+
+            <nav className={style.mobileNav}>
+                <div className={style.mobileNav}>
+                    <NavLink className={style.mobileNav} to="/homepage"> Home </NavLink>
+                    <NavLink className={style.mobileNav} to="/menu"> Menu </NavLink>
+                    <NavLink className={style.mobileNav} to="/myreservation"> My Reservation </NavLink>
+                    <NavLink className={style.mobileNav} to="/myOrders">My Orders</NavLink>
+                    <NavLink className={style.mobileNav} to="/reservation"> Book a Table </NavLink>
+                    <NavLink className={style.mobileNav} to="/cart"> <ShoppingCartIcon /> </NavLink>
+                    <NavLink className={style.mobileNav} to="/"> Log Out </NavLink>
+                </div>
+            </nav>
+
+        </Box>
+
+
+    );
+    return (
+        <>
+            <Box>
+                <AppBar component={"nav"} sx={{ bgcolor: "black" }}>
+
+                    <Toolbar>
+
+                        <IconButton color="inherit" arial-label='open drawer' edge="start"
+                            sx={{ mr: 2, display: { sm: "none" }, }} onClick={handleDrawerToggle} >
+
+                            <MenuIcon />
+
+                        </IconButton>
+
+                        <Typography color={"goldenrod"} variant="h6" component={"div"} sx={{ flexGrow: 1 }} >
+                            <FoodBankIcon />
+                            Food Zone
+                        </Typography>
+
+                        <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
+
+                            <nav className={style.navbar}>
+                                <div className={style.nav_link}>
+                                    <NavLink className={style.nav_link} to="/homepage"> Home </NavLink>
+                                    <NavLink className={style.nav_link} to="/menu"> Menu </NavLink>
+                                    <NavLink className={style.nav_link} to="/myreservation"> My Reservation </NavLink>
+                                    <NavLink className={style.nav_link} to="/myOrders">My Orders</NavLink>
+                                    <NavLink className={style.nav_link} to="/reservation"> Book a Table  </NavLink>
+                                    <NavLink className={style.nav_link} to="/cart"><span color={"white"} fontSize={"25px"} component={"div"} sx={{ flexGrow: 1 }} >
+                                        <ShoppingCartIcon />
+                                       <span> Cart </span></span>
+                                    </NavLink>
+                                    <NavLink className={style.nav_link} to="/"> Log Out  </NavLink>
+                                </div>
+                            </nav>
+
+                        </Box>
+
+                    </Toolbar>
+
+                </AppBar>
+
+                <Box component="nav">
+
+                    <Drawer variant="temporary" open={mobileOpen} onClose={handleDrawerToggle} sx={{
+                        display: { xs: 'block', sm: 'none' }, "& .MuiDrawer-paper": {
+                            boxSizing: "border-box",
+                            width: "240px",
+                        },
+                    }}>
+                        {drawer}
+                    </Drawer>
+
+                </Box>
+
+                <Box>
+                    <Toolbar />
+                </Box>
+
+            </Box>
+        </>
+    )
+}
+export default NavbarAfterLogin

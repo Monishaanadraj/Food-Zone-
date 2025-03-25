@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    top: 20px;
+    font-size: 25px;
+}
+
+.form {
+    border-radius: 20px;
+    width: 500px;
+    height: 700px;
+    background-color: white;
+    box-shadow: 0 5px 30px black;
+    font-size: 25px;
+}
+
+.form:hover {
+    box-shadow: 0px 0px 10px royalblue;
+}
+
+.formGroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.formGroup input {
+    width: 100%;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+    background-color: transparent;
+    color: black;
+}
+
+input:hover {
+    outline: none;
+    border: 2px solid goldenrod;
+    font-size: 17px;
+    color: black;
+}
+
+.btn {
+    padding: 10px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: rgb(15, 15, 67);
+    border-style: none;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background-color: goldenrod;
+    color: black;
+}
+
+.signUp {
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    padding: 10px;
+}
+
+.content {
+    text-decoration: none;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.content span:hover {
+    font-size: 25px;
+    border-bottom: 2px solid rgb(18, 18, 77);
+}
+
+.headding h1 {
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(24, 24, 72);
+}
+
+.return {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.return:hover {
+    font-size: 25px;
+}

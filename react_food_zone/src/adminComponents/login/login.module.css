@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logincontainer {
+    background-color: white;
+    box-shadow: 0 5px 30px black;
+
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 25px;
+}
+
+.form {
+    border-radius: 20px;
+    width: 500px;
+    height: 600px;
+    background-color: white;
+    box-shadow: 0 5px 30px black;
+    font-size: 25px;
+}
+
+.form:hover {
+    box-shadow: 0px 0px 10px royalblue;
+}
+
+.formGroup {
+    display: block;
+    font-size: 25px;
+}
+
+.formGroup label {
+    color: black;
+    font-size: 20px;
+    margin: 30px 0px 0px 30px;
+}
+
+.formGroup input {
+    border: 2px solid black;
+    background-color: transparent;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 90%;
+    font-size: 20px;
+    padding: 10px;
+    margin: 0px 20px 10px 30px;
+}
+
+input:hover {
+    outline: none;
+    border: 2px solid goldenrod;
+    font-size: 17px;
+    color: black;
+}
+
+.formGroup span {
+    color: red;
+    font-size: 25px;
+}
+
+.btn {
+    padding: 10px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: rgb(15, 15, 67);
+    border-style: none;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    position: relative;
+    left: 25%;
+    margin: 50px 20px 10px 20px;
+}
+
+.btn:hover {
+    background-color: goldenrod;
+    color: black;
+}
+
+.headding h1 {
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(18, 18, 77);
+}
+
+.content {
+    text-decoration: none;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.content span:hover {
+    font-size: 25px;
+    border-bottom: 2px solid rgb(18, 18, 77);
+}
+
+.password {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.password:hover {
+    font-size: 25px;
+}

@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #141124;
+}
+
+.product_content h3 {
+  color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading h1 {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  color: goldenrod;
+  font-family: 'Great Vibes', cursive;
+}
+
+.container {
+  margin: 30px;
+  Width: 50%;
+  height: 0, auto;
+  display: column;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.details_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 45%;
+
+}
+
+.single_product {
+  width: 100%;
+  background-color: #141124;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 10px;
+  flex-direction: row;
+}
+
+.product_img {
+  position: relative;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+
+.cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addtocart {
+  padding: 10px;
+  background-color: white;
+  color: rgb(13, 13, 69);
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid white;
+  font-size: 20px;
+  margin: 20px;
+}
+
+.addtocart:hover {
+  color: white;
+  background-color: rgb(13, 13, 69);
+}
+
+.title {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin: 20px;
+}
+
+.desc {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin: 10px;
+
+
+}
+
+.price {
+  color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+
+}

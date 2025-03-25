@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+
+}
+
+.single_product {
+    width: 100%;
+    /* background-color: #141124; */
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.heading h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:50px 20px 20px 20px;
+    color: goldenrod;
+    font-size: 100px;
+    font-family: 'Great Vibes', cursive;
+}
+
+.product_img {
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+
+.desc {
+    color: goldenrod;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom:20px ;
+}
+
+
+.title {
+    color:#141124;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+
+}

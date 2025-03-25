@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bannerImage {
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 0 auto;
+    display: flex;
+    margin: 20px;
+}
+
+.bgimage {
+    position: absolute;
+    width: 100%;
+    height: 0 auto;
+    display: flex;
+}
+
+.text p {
+    position: relative;
+    color: white;
+    font-size: 50px;
+    font-family: 'Great Vibes', cursive;
+    margin: 300px 0px 300px 0px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.368);
+    background-size: cover;
+}
+
+.headding h1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 100px;
+    margin: 20px;
+}
+
+.headding h5 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: 1000;
+    margin: 55px;
+    left: 32%;
+    z-index: 1;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+.content {
+    display: block;
+    margin: 20px;
+    padding: 10px;
+}
+
+.content label {
+    display: block;
+    color: black;
+    font-size: 25px;
+    margin: 5px;
+}
+
+.content input {
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    padding: 20px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.content input:hover {
+    border: 2px solid goldenrod;
+    font-size: 20px;
+}
+.content select {
+    width:"480px";
+    height:"60px";
+    border: 2px solid black;
+    font-size: 20px;
+}
+.btn {
+    position: relative;
+    font-size: 25px;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(16, 16, 66);
+    border-radius: 20px;
+    width: 300px;
+    transition: all 1s ease-in-out;
+}
+
+.btn:hover {
+    color: rgb(16, 16, 63);
+    background-color: goldenrod;
+}
+.content h1{
+    font-size: 20px;
+    color: black;
+}
+.content h1 span{
+    color: red;
+    font-size: 20px;
+}
